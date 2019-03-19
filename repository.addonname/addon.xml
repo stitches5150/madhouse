@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.addonname" name="addonname Repo" version="0.0.1" provider-name="dev name">
+	<extension point="xbmc.addon.repository" name="addonname Repo">
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/stitches5150/template/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/stitches5150/template/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/stitches5150/template/master/zips/</datadir>
+	</dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.scrapersname/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.scrapersname/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.scrapersname/master/zips/</datadir>
+    </dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">addonname is a educational add-on. We do not host any of the contents streamed.</summary>
+		<description lang="en"></description>
+		<platform>all</platform>
+	</extension>
+</addon>
