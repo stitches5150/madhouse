@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Madhouse" name="Madhouse" version="1.0.30" provider-name="stitches">
+<addon id="repository.Madhouse" name="Madhouse" version="1.0.31" provider-name="stitches">
 	<extension point="xbmc.addon.repository" name="Madhouse REPO">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/stitches5150/PaddedWalls/master/zips/addons.xml</info>
@@ -15,6 +15,11 @@
             <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+        </dir>
+		<dir>
+                <info compressed="false">https://raw.githubusercontent.com/Guilouz/repository.guilouz/master/_repo/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Guilouz/repository.guilouz/master/_repo/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/Guilouz/repository.guilouz/raw/master/_repo</datadir>
         </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
