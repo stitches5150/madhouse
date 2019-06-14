@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Madhouse" name="Madhouse" version="1.0.31" provider-name="stitches">
+<addon id="repository.Madhouse" name="Madhouse" version="1.0.32" provider-name="stitches">
 	<extension point="xbmc.addon.repository" name="Madhouse REPO">
 		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/stitches5150/PaddedWalls/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/stitches5150/PaddedWalls/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/stitches5150/PaddedWalls/master/zips/</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/bcrusher29/unfocused/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/bcrusher29/unfocused/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/bcrusher29/unfocused/master/zips/</datadir>
 		</dir>
+		<dir>
+			<info compressed="false">http://paulbunyan.xyz/repo/addons.xml</info>
+			<checksum>http://paulbunyan.xyz/repo/addons.xml.md5</checksum>
+			<datadir zip="true">http://paulbunyan.xyz/repo/files/</datadir>
+		</dir>
+			<dir>
+		        <info compressed="false">https://raw.githubusercontent.com/eggman19/eggscrapers/master/_eggscrapers/addons.xml</info>
+		        <checksum>https://raw.githubusercontent.com/eggman19/eggscrapers/master/_eggscrapers/addons.xml.md5</checksum>
+		        <datadir zip="true">https://raw.githubusercontent.com/eggman19/eggscrapers/master/_eggscrapers</datadir>
+            </dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml.md5</checksum>
