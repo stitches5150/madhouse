@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Madhouse" name="Madhouse" version="1.0.57" provider-name="stitches">
+<addon id="repository.Madhouse" name="Madhouse" version="1.0.58" provider-name="stitches">
 	<extension point="xbmc.addon.repository" name="Madhouse REPO">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/stitches5150/madhouseaddons/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/stitches5150/madhouseaddons/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/stitches5150/madhouseaddons/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">http://paulbunyan.xyz/repo/addons.xml</info>
-			<checksum>http://paulbunyan.xyz/repo/addons.xml.md5</checksum>
-			<datadir zip="true">http://paulbunyan.xyz/repo/files/</datadir>
 		</dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
